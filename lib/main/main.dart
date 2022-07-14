@@ -1,18 +1,18 @@
 import 'package:flutter/material.dart';
 import 'package:flutter/widgets.dart';
-import 'package:udemy/busi.dart';
-import 'package:udemy/fin.dart';
-import 'package:udemy/nova.dart';
-import 'package:udemy/home_view.dart';
-import 'package:udemy/howt.dart';
-import 'package:udemy/learnperlscr.dart';
-import 'package:udemy/myLearning.dart';
-import 'package:udemy/screen1.dart';
-import 'package:udemy/screen2.dart';
-import 'package:udemy/screen3.dart';
-import 'package:udemy/splash.dart';
-import 'package:udemy/tab1.dart';
-import 'package:udemy/tab2.dart';
+import 'package:udemy/views/busi.dart';
+import 'package:udemy/views/fin.dart';
+import 'package:udemy/views/nova.dart';
+import 'package:udemy/views/home_view.dart';
+import 'package:udemy/views/howt.dart';
+import 'package:udemy/views/learnperlscr.dart';
+import 'package:udemy/views/myLearning.dart';
+import 'package:udemy/views/screen1.dart';
+import 'package:udemy/views/screen2.dart';
+import 'package:udemy/views/screen3.dart';
+import 'package:udemy/views/splash.dart';
+import 'package:udemy/views/tab1.dart';
+import 'package:udemy/views/tab2.dart';
 
 void main() {
   runApp(myapp());
@@ -24,7 +24,7 @@ class myapp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      home: homescreen(),
+      home: splash(),
       theme: ThemeData(primaryColor: Colors.blue),
     );
   }
