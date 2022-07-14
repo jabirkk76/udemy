@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter/src/foundation/key.dart';
 import 'package:flutter/src/widgets/framework.dart';
-import 'package:udemy/home_view.dart';
+import 'package:udemy/views/home_view.dart';
 
 class splash extends StatefulWidget {
   const splash({Key? key}) : super(key: key);
